@@ -5,7 +5,8 @@
 // });
 
 it('Using Get with Find and Eq', () => {
-        cy.visit('https://htmlacademy.ru/study')
-        cy.get('.page-header__top').find('a').eq(10)
-    });
+    cy.visit('https://htmlacademy.ru/study')
+    cy.get('.page-header__top').find('a').eq(10)
+});
 
+//comment
